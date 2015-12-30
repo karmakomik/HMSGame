@@ -1,3 +1,8 @@
+/*
+ * This Sketch contains definitions of classes and other data structures required in the HMS game
+ *
+*/ 
+
 //int i = 0;
 int xOffset = 20;
 int yOffset = 20;
