@@ -367,5 +367,5 @@ void drawHaathi(float x, float y)
 
 boolean sketchFullScreen() 
 {
-  return !true;
+  return true;
 }

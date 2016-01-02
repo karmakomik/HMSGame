@@ -35,6 +35,11 @@ void draw()
   
     if(c!=null)
     {
+      fill(0,0,0);
+      text("Client state",displayWidth-100,20);
+      fill(0,255,0);
+      rect(displayWidth-30,10,10,10);
+      
       String s = c.readString();
 
       if(s!=null)
@@ -58,6 +63,13 @@ void draw()
               commandsList.append("eat");
           }              
       }
+    }
+    else // if no client connects
+    {
+        fill(0,0,0);
+        text("Client state",displayWidth-100,20);
+        fill(255,0,0);
+        rect(displayWidth-30,10,10,10);
     }  
   
     if(isCommandRead)
